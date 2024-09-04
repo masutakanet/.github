@@ -10,7 +10,7 @@ body:
       options:
         - label: This is only for bug report, if you would like to ask a question, please head to [Discussions](../discussions/categories/q-a).
           required: true
-        - label: I have searched for existing issues [search for existing issues](../issues), including closed ones.
+        - label: I have searched for existing issues <a href="../issues" target="_blank">search for existing issues</a>, including closed ones.
           required: true
 
   - type: dropdown
