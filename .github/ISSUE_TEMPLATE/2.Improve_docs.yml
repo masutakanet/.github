@@ -32,7 +32,6 @@ body:
       label: Suggested Improvement
       description: What changes or improvements do you suggest? Please provide the corrected text or detailed feedback.
       placeholder: Include corrected content or detailed suggestions.
-      required: true
     validations:
       required: true
 
@@ -41,6 +40,7 @@ body:
       label: Reason for Suggestion
       description: Why do you think this change will improve the documentation?
       placeholder: e.g., Improve clarity, fix an error, add more context
+    validations:
       required: true
 
   - type: input
